@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">OthelloGame</string>
+
+    <string name="name">Name: Clark YAN</string>
+    <string name="uid">UID: 3035257626</string>
+    <string name="start">START GAME</string>
+    <string name="ngame">NEW GAME</string>
+    <string name="retract">RETRACT</string>
+    <string name="hint">HINTS ON</string>
+    <string name="audio">MUSIC ON</string>
+    <string name="bgchange">CHANGE BACKGROUND</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chess_board">ChessBoard</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

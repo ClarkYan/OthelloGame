@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg11">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20sp">
+        <Button
+            android:id="@+id/ngame"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ngame"
+            android:textSize="6pt" />
+
+        <Button
+            android:id="@+id/retract"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/retract"
+            android:textSize="6pt"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/hintsOn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hint"
+            android:textSize="6pt" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/black_chess"
+            android:layout_marginTop="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="10pt"
+            android:textColor="@color/slateblue"
+            android:layout_marginLeft="3sp"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="12pt"
+            android:textColor="@color/slateblue"
+            android:layout_marginLeft="5sp"
+            android:layout_gravity="bottom"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/white_chess"
+            android:layout_marginTop="18sp"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="10pt"
+            android:textColor="@color/slateblue"
+            android:layout_marginLeft="3sp"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="12pt"
+            android:textColor="@color/slateblue"
+            android:layout_marginLeft="5sp"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turn"
+            android:textSize="12pt"
+            android:textColor="@color/slateblue"
+            android:layout_marginLeft="15sp"
+            android:layout_gravity="bottom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="10pt"
+            android:textColor="@color/slateblue"
+            android:layout_marginLeft="5sp"
+            android:layout_gravity="bottom"/>
+
+        <ImageView
+            android:id="@+id/win"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/black_chess"
+            android:layout_marginTop="18sp"
+            android:layout_marginLeft="5sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <com.example.clarkyan.othellogame.BoardView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/audio"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/audio"
+            android:textSize="6pt" />
+
+        <Button
+            android:id="@+id/bgchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bgchange"
+            android:textSize="6pt" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
