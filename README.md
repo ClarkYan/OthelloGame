@@ -15,7 +15,7 @@ The goal of this game is to achieve the majority of pieces turned to display you
 
 * CHANGE BACKGROUND: This is a button to change the background of this chessboard page. This system stores six background pictures to fit this page, players can change the pictures depending on their feelings.
 
-* CHANGE BACKGROUND: This is a button to change the background of this chessboard page. This system stores six background pictures to fit this page, players can change the pictures depending on their feelings.
+* SHOW THE FINAL RESULT: This is a dialog message to show the final result of this game.
 
 ## Limitations
 With the time limitations, this system does not be exactly excellent enough. Under my consideration, the previous object is to implement a Othello Game with Human vs. Human and also Human vs. Computer. However, there are more assignments and exams now, so the Human vs. Computer part does not finish yet.
